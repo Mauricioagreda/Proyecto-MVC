@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicaMVC", "MusicaMVC\MusicaMVC.csproj", "{EADB64A8-0760-46E9-832D-41F20A33847F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Musica.Mvc", "MusicaMVC\Musica.Mvc.csproj", "{EADB64A8-0760-46E9-832D-41F20A33847F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musica.Core", "Musica.Core\Musica.Core.csproj", "{5E918026-1F4D-4DAA-BD2B-F5E64DD93A5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EADB64A8-0760-46E9-832D-41F20A33847F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADB64A8-0760-46E9-832D-41F20A33847F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADB64A8-0760-46E9-832D-41F20A33847F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E918026-1F4D-4DAA-BD2B-F5E64DD93A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E918026-1F4D-4DAA-BD2B-F5E64DD93A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E918026-1F4D-4DAA-BD2B-F5E64DD93A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E918026-1F4D-4DAA-BD2B-F5E64DD93A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
