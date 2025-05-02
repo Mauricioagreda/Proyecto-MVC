@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Ejercicios-Lab\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj": {}
+    "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Ejercicios-Lab\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj": {
+    "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Ejercicios-Lab\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj",
+        "projectUniqueName": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj",
         "projectName": "MusicaMVC",
-        "projectPath": "D:\\GitHub\\Ejercicios-Lab\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj",
+        "projectPath": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj",
         "packagesPath": "C:\\Users\\el Tumba\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Ejercicios-Lab\\MusicaMVC\\MusicaMVC\\obj\\",
+        "outputPath": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

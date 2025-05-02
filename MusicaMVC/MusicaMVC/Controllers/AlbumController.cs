@@ -1,24 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using MusicaMVC.Data;
-using MusicaMVC.Migrations;
 using MusicaMVC.Models;
-using System.Reflection.Metadata.Ecma335;
+using System.ComponentModel;
 
 namespace MusicaMVC.Controllers
 {
-    public class CancionController : Controller
+    public class AlbumController : Controller
     {
         private readonly MusicaDBContext musicaDBContext;
 
-        public CancionController(MusicaDBContext _musicaDBContext)
+        public AlbumController(MusicaDBContext _musicaDBContext)
         {
             musicaDBContext = _musicaDBContext;
         }
 
         public async Task<IActionResult> Lista()
         {
-            List<Cancion> lista = await musicaDBContext.Canciones.ToListAsync();
+            List<Album> lista = await musicaDBContext.Albumes.ToListAsync();
             return View(lista);
         }
 
@@ -28,9 +28,9 @@ namespace MusicaMVC.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Nuevo(Cancion cancion)
+        public async Task<IActionResult> Nuevo(Album album)
         {
-            await musicaDBContext.Canciones.AddAsync(cancion);
+            await musicaDBContext.Albumes.AddAsync(album);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));
@@ -39,14 +39,15 @@ namespace MusicaMVC.Controllers
         [HttpGet]
         public async Task<IActionResult> Editar(int id)
         {
-            Cancion cancion = await musicaDBContext.Canciones.FirstAsync(c => c.IdCancion == id);
+            Album album = await musicaDBContext.Albumes.FirstAsync(a => a.IdAlbum == id);
 
-            return View(cancion);
+            return View(album);
         }
+
         [HttpPost]
-        public async Task<IActionResult> Editar(Cancion cancion)
+        public async Task<IActionResult> Editar(Album album)
         {
-            musicaDBContext.Canciones.Update(cancion);
+            musicaDBContext.Albumes.Update(album);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));
@@ -55,8 +56,8 @@ namespace MusicaMVC.Controllers
         [HttpGet]
         public async Task<IActionResult> Eliminar(int id)
         {
-            Cancion cancion = await musicaDBContext.Canciones.FirstAsync(c => c.IdCancion == id);
-            musicaDBContext.Canciones.Remove(cancion);
+            Album album = await musicaDBContext.Albumes.FirstAsync(a => a.IdAlbum == id);
+            musicaDBContext.Remove(album);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mI6Z5YSdRIw14sns7J2cSTyYBzcWF7EFdNkpOhxjxobsyqxNG+JrJq8P86J1fEpCBvHZ/TzXtwyv2dVKxPS+zQ==",
+  "dgSpecHash": "oJlH2JKbD6MSLsJrOWwcm3xk1ku9XTB7hIzBI6Q0VzVaro/PWzf3UrT4lTdJrPBM1HHIjd2NLMD/glKftfRgpg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Ejercicios-Lab\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj",
+  "projectFilePath": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\MusicaMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\el Tumba\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\el Tumba\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

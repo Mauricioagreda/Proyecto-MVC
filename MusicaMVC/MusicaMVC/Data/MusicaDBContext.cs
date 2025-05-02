@@ -11,6 +11,7 @@ namespace MusicaMVC.Data
         }
 
         public DbSet<Cancion> Canciones { get; set; }
+        public DbSet<Album> Albumes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -27,7 +28,20 @@ namespace MusicaMVC.Data
                 .HasMaxLength(50);
             });
 
+            modelBuilder.Entity<Album>(tb =>
+            {
+                tb.HasKey(col => col.IdAlbum);
+
+                tb.Property(col => col.IdAlbum)
+                .UseIdentityColumn()
+                .ValueGeneratedOnAdd();
+
+                tb.Property(col => col.Nombre)
+                .HasMaxLength(50);
+            });
+
             modelBuilder.Entity<Cancion>().ToTable("Cancion");
+            modelBuilder.Entity<Album>().ToTable("Album");
         }
     }
 }
