@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MusicaMVC.Data;
 
@@ -10,9 +11,11 @@ using MusicaMVC.Data;
 namespace MusicaMVC.Migrations
 {
     [DbContext(typeof(MusicaDBContext))]
-    partial class MusicaDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250502231504_Tercera Migracion")]
+    partial class TerceraMigracion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

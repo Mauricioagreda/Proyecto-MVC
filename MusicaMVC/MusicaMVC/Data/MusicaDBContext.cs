@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MusicaMVC.Models;
 namespace MusicaMVC.Data
 {
@@ -12,6 +13,7 @@ namespace MusicaMVC.Data
 
         public DbSet<Cancion> Canciones { get; set; }
         public DbSet<Album> Albumes { get; set; }
+        public DbSet<Artista> Artistas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -40,6 +42,17 @@ namespace MusicaMVC.Data
                 .HasMaxLength(50);
             });
 
+            modelBuilder.Entity<Artista>(tb =>
+            {
+                tb.HasKey(col => col.IdArtista);
+
+                tb.Property(col => col.IdArtista)
+                .UseIdentityColumn();
+
+                tb.Property(col => col.Nombre)
+                .HasMaxLength(50);
+            });
+            modelBuilder.Entity<Artista>().ToTable("Artista");
             modelBuilder.Entity<Cancion>().ToTable("Cancion");
             modelBuilder.Entity<Album>().ToTable("Album");
         }

@@ -16,7 +16,7 @@ namespace MusicaMVC.Controllers
 
         public async Task<IActionResult> Lista()
         {
-            List<Album> lista = await musicaDBContext.Albumes.ToListAsync();
+            List<Artista> lista = await musicaDBContext.Artistas.ToListAsync();
             return View(lista);
         }
 
@@ -27,9 +27,9 @@ namespace MusicaMVC.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Nuevo(Album album)
+        public async Task<IActionResult> Nuevo(Artista artista)
         {
-            await musicaDBContext.Albumes.AddAsync(album);
+            await musicaDBContext.Artistas.AddAsync(artista);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));
@@ -38,15 +38,15 @@ namespace MusicaMVC.Controllers
         [HttpGet]
         public async Task<IActionResult> Editar(int id)
         {
-            Album album = await musicaDBContext.Albumes.FirstAsync(a => a.IdAlbum == id);
+            Artista artista = await musicaDBContext.Artistas.FirstAsync(a => a.IdArtista == id);
 
-            return View(album);
+            return View(artista);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(Album album)
+        public async Task<IActionResult> Editar(Artista artista)
         {
-            musicaDBContext.Albumes.Update(album);
+            musicaDBContext.Artistas.Update(artista);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));
@@ -55,8 +55,8 @@ namespace MusicaMVC.Controllers
         [HttpGet]
         public async Task<IActionResult> Eliminar (int id)
         {
-            Album album = await musicaDBContext.Albumes.FirstAsync(a => a.IdAlbum == id);
-            musicaDBContext.Albumes.Remove(album);
+            Artista artista = await musicaDBContext.Artistas.FirstAsync(a => a.IdArtista == id);
+            musicaDBContext.Artistas.Remove(artista);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));

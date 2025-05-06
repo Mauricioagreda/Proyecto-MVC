@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicaMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c59e78feae1fa2c6af84ec054488dff030745cb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3705fab676ba92da3abf1112bdb06165fde88f1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusicaMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicaMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

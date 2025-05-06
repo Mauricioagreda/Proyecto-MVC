@@ -3,18 +3,19 @@
 *@
 @{
 }
-@model MusicaMVC.Models.Album
+@model MusicaMVC.Models.Artista
 <div class="row">
     <div class="col-sm-8 offset-sm-2">
-        <h2>Agregar Album</h2>
-        <form asp-controller="Album" asp-action="Nuevo" method="post">}
+        <h2>Editar Artista</h2>
+        <form asp-controller="Artista" asp-action="Editar" method="post">
+            <input asp-for="IdArtista" type="hidden" />
             <div class="mb-3">
                 <label>Nombre</label>
                 <input class="form-control" asp-for="Nombre" type="text" />
             </div>
             <div class="mb-3">
-                <button class="btn btn-primary" type="submit">Agregar</button>
-                <a asp-controller="Album" asp-action="Lista" class="btn btn-warning">Volver</a>
+                <button class="btn btn-primary" type="submit">Guardar</button>
+                <a asp-controller="Artista" asp-action="Lista" class="btn btn-warning">Volver</a>
             </div>
         </form>
     </div>

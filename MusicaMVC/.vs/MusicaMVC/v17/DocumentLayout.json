@@ -7,52 +7,72 @@
       "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\controllers\\artistacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\controllers\\cancioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\controllers\\cancioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\album\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\album\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\cancion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\cancion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\album\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\album\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\cancion\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\cancion\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\album\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\album\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\artista\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\artista\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\cancion\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\cancion\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\artista\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\artista\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\artista\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\artista\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\album\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\album\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\album\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\album\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\cancion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\cancion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\cancion\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\cancion\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\controllers\\cancioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\controllers\\cancioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\views\\album\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\views\\album\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\data\\musicadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\data\\musicadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\migrations\\20250501142520_segunda migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\migrations\\20250501142520_segunda migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|d:\\github\\proyecto-mvc\\musicamvc\\musicamvc\\migrations\\20250502231504_tercera migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450F39CB-7A8D-4BC4-B92B-2CCA5C30CD12}|MusicaMVC\\MusicaMVC.csproj|solutionrelative:musicamvc\\migrations\\20250502231504_tercera migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,8 +82,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Artista\\Lista.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Artista\\Lista.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Artista\\Lista.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Artista\\Lista.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T23:30:25.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T16:17:53.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Editar.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Cancion\\Editar.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Editar.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Cancion\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T23:53:58.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Lista.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Album\\Lista.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Lista.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Album\\Lista.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:24:07.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Editar.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Album\\Editar.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Editar.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Album\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:55:03.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Artista\\Editar.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Artista\\Editar.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Artista\\Editar.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Artista\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:03:20Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Lista.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Cancion\\Lista.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Lista.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Cancion\\Lista.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:39:24.692Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -72,7 +176,7 @@
               "RelativeDocumentMoniker": "MusicaMVC\\Controllers\\ArtistaController.cs",
               "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Controllers\\ArtistaController.cs",
               "RelativeToolTip": "MusicaMVC\\Controllers\\ArtistaController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAYwDUAAAAAAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T17:03:47.534Z",
               "EditorCaption": ""
@@ -80,122 +184,102 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Editar.cshtml",
-              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Album\\Editar.cshtml",
-              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Editar.cshtml",
-              "RelativeToolTip": "MusicaMVC\\Views\\Album\\Editar.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAkwAwAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T16:55:03.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Nuevo.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Nuevo.cshtml",
-              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Album\\Nuevo.cshtml",
-              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Nuevo.cshtml",
-              "RelativeToolTip": "MusicaMVC\\Views\\Album\\Nuevo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Artista\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Artista\\Nuevo.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Artista\\Nuevo.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Artista\\Nuevo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T16:43:50.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T16:52:58.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Nuevo.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
-              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
-              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
-              "RelativeToolTip": "MusicaMVC\\Views\\Cancion\\Nuevo.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T16:17:53.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "CancionController.cs",
               "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Controllers\\CancionController.cs",
               "RelativeDocumentMoniker": "MusicaMVC\\Controllers\\CancionController.cs",
               "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Controllers\\CancionController.cs",
               "RelativeToolTip": "MusicaMVC\\Controllers\\CancionController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:14:56.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T16:14:56.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Editar.cshtml",
-              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Cancion\\Editar.cshtml",
-              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Editar.cshtml",
-              "RelativeToolTip": "MusicaMVC\\Views\\Cancion\\Editar.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAeAAAA",
+              "DocumentIndex": 10,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Album\\Nuevo.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Nuevo.cshtml",
+              "RelativeToolTip": "MusicaMVC\\Views\\Album\\Nuevo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T23:53:58.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T16:43:50.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "AlbumController.cs",
               "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Controllers\\AlbumController.cs",
               "RelativeDocumentMoniker": "MusicaMVC\\Controllers\\AlbumController.cs",
               "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Controllers\\AlbumController.cs",
               "RelativeToolTip": "MusicaMVC\\Controllers\\AlbumController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA5wCcAAAAtAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:03:25.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:03:25.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Lista.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Lista.cshtml",
-              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Album\\Lista.cshtml",
-              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Album\\Lista.cshtml",
-              "RelativeToolTip": "MusicaMVC\\Views\\Album\\Lista.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T16:24:07.731Z",
-              "EditorCaption": ""
+              "DocumentIndex": 17,
+              "Title": "20250502231504_Tercera Migracion.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Migrations\\20250502231504_Tercera Migracion.cs",
+              "RelativeDocumentMoniker": "MusicaMVC\\Migrations\\20250502231504_Tercera Migracion.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Migrations\\20250502231504_Tercera Migracion.cs",
+              "RelativeToolTip": "MusicaMVC\\Migrations\\20250502231504_Tercera Migracion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:15:05.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Lista.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Lista.cshtml",
-              "RelativeDocumentMoniker": "MusicaMVC\\Views\\Cancion\\Lista.cshtml",
-              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Views\\Cancion\\Lista.cshtml",
-              "RelativeToolTip": "MusicaMVC\\Views\\Cancion\\Lista.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T15:39:24.692Z",
-              "EditorCaption": ""
+              "DocumentIndex": 13,
+              "Title": "Artista.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Models\\Artista.cs",
+              "RelativeDocumentMoniker": "MusicaMVC\\Models\\Artista.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Models\\Artista.cs",
+              "RelativeToolTip": "MusicaMVC\\Models\\Artista.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:08:33.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "MusicaDBContext.cs",
               "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Data\\MusicaDBContext.cs",
               "RelativeDocumentMoniker": "MusicaMVC\\Data\\MusicaDBContext.cs",
               "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Data\\MusicaDBContext.cs",
               "RelativeToolTip": "MusicaMVC\\Data\\MusicaDBContext.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCMAAAAkAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwA8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T14:08:53.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
+              "Title": "Album.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "MusicaMVC\\Models\\Album.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Models\\Album.cs",
+              "RelativeToolTip": "MusicaMVC\\Models\\Album.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:00:04.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "20250501142520_Segunda Migracion.cs",
               "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Migrations\\20250501142520_Segunda Migracion.cs",
               "RelativeDocumentMoniker": "MusicaMVC\\Migrations\\20250501142520_Segunda Migracion.cs",
@@ -207,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Program.cs",
               "RelativeDocumentMoniker": "MusicaMVC\\Program.cs",
@@ -216,18 +300,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T16:52:48.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Album.cs",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Models\\Album.cs",
-              "RelativeDocumentMoniker": "MusicaMVC\\Models\\Album.cs",
-              "ToolTip": "D:\\GitHub\\Proyecto-MVC\\MusicaMVC\\MusicaMVC\\Models\\Album.cs",
-              "RelativeToolTip": "MusicaMVC\\Models\\Album.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:00:04.683Z"
             }
           ]
         }
