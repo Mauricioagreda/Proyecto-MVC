@@ -47,7 +47,7 @@ MusicaMVC -> appsettings.json -> "CadenaSQL": "Data Source=(local)\\NOMBRE MODIF
 
 * Crear La Base de Datos:
 
-Herramientas -> Administrador de paquetes NuGet -> Consola de Administrador de paquetes -> Tipear en la consola: Update-DAtabase
+Herramientas -> Administrador de paquetes NuGet -> Consola de Administrador de paquetes -> Tipear en la consola: Update-Database
 
 ## Construido con 🛠️
 
