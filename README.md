@@ -62,7 +62,9 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 ## Autores ✒️
 
 Mauricio Agreda - Desarrollo - [MauricioAgreda](https://github.com/Mauricioagreda)
+
 Max Power - Desarrollo - [Maxpower](https://github.com/maxpower)
+
 Cosme Fulanito - Documentación - [Cosmefulanito](#Cosmefulanito)
 
 ## Licencia 📄
