@@ -14,6 +14,7 @@
                 <tr>
                     <th>Id</th>
                     <th>Nombre</th>
+                    <th>Artista</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,6 +23,16 @@
                     <tr>
                         <td>@item.IdAlbum</td>
                         <td>@item.Nombre</td>
+                        <td>
+                            <a 
+                                class="btn btn-warning" 
+                                asp-controller="Artista" 
+                                asp-action="ListaAlbumes" 
+                                asp-route-id="@item.IdArtista">
+                                @item.ArtistaReferencia.Nombre
+                            </a>
+                        </td>
+                        
                         <td>
                             <a 
                                 asp-controller="Album"

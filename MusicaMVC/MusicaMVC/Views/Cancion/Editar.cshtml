@@ -3,19 +3,23 @@
 *@
 @{
 }
-@model MusicaMVC.Models.Cancion;
+@model MusicaMVC.ViewModel.CancionViewModel;
 <div class="row">
     <div class="col-sm-8 offset-sm-2">
         <h2>Editar Cancion</h2>
         <form asp-controller="Cancion" asp-action="Editar" method="post">
-            <input asp-for="IdCancion" type="hidden"/>
+            <input asp-for="CancionVM.IdCancion" type="hidden" />
             <div class="mb-3">
                 <label>Nombre</label>
-                <input class="form-control" asp-for="Nombre" type="text" />
+                <input class="form-control" asp-for="CancionVM.Nombre" type="text" />
             </div>
             <div class="mb-3">
                 <label>Duracion</label>
-                <input class="form-control" asp-for="Duracion" type="number" step="any" />
+                <input class="form-control" asp-for="CancionVM.Duracion" type="number" step="any" />
+            </div>
+            <div class="mb-3">
+                <label>Album</label>
+                <select class ="form-control" asp-for="CancionVM.IdAlbum" asp-items="Model.Albumes"></select>
             </div>
             <div calss="mb-3">
                 <button class="btn btn-primary" type="submit">Guardar</button>

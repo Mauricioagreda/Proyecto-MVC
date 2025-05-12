@@ -15,7 +15,8 @@
                     <th>Id</th>
                     <th>Nombre</th>
                     <th>Duracion</th>
-                    <th></th>
+                    <th>Album</th>
+                    <th>Atista</th>
                 </tr>
             </thead>
             <tbody>
@@ -25,6 +26,24 @@
                         <td>@item.IdCancion</td>
                         <td>@item.Nombre</td>
                         <td>@item.Duracion</td>
+                        <td>
+                            <a
+                                class="btn btn-warning"
+                                asp-controller="Album"
+                                asp-action="ListaCanciones"
+                                asp-route-id="@item.IdAlbum">
+                                @item.AlbumReferencia.Nombre
+                            </a>
+                        </td>
+                        <td> 
+                            <a
+                                class ="btn btn-warning" 
+                                asp-controller="Artista" 
+                                asp-action="ListaAlbumes"
+                                asp-route-id="@item.AlbumReferencia.IdArtista">
+                                @item.AlbumReferencia.ArtistaReferencia.Nombre
+                            </a>
+                        </td>
                         <td>
                             <a 
                                 asp-controller="Cancion" 

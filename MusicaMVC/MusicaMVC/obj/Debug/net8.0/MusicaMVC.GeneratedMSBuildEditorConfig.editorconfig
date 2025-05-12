@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitHub/Proyecto-MVC/MusicaMVC/MusicaMVC/Views/Album/ListaCanciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cTGlzdGFDYW5jaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/Proyecto-MVC/MusicaMVC/MusicaMVC/Views/Album/Nuevo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cTnVldm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/GitHub/Proyecto-MVC/MusicaMVC/MusicaMVC/Views/Artista/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0YVxMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-MVC/MusicaMVC/MusicaMVC/Views/Artista/ListaAlbumes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0YVxMaXN0YUFsYnVtZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitHub/Proyecto-MVC/MusicaMVC/MusicaMVC/Views/Artista/Nuevo.cshtml]

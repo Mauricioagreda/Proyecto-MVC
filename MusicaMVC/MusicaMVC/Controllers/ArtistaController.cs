@@ -20,6 +20,16 @@ namespace MusicaMVC.Controllers
             return View(lista);
         }
 
+        public async Task<IActionResult> ListaAlbumes(int id)
+        {
+            var albums = await musicaDBContext.Albumes
+                .Include(a => a.ArtistaReferencia)
+                .Where(a => a.IdArtista == id)
+                .ToListAsync();
+    
+            return View(albums);
+        }
+
         [HttpGet]
         public IActionResult Nuevo() 
         {

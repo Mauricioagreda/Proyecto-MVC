@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MusicaMVC.Data;
-using MusicaMVC.Migrations;
 using MusicaMVC.Models;
-using System.Reflection.Metadata.Ecma335;
+using MusicaMVC.ViewModel;
 
 namespace MusicaMVC.Controllers
 {
@@ -18,19 +18,31 @@ namespace MusicaMVC.Controllers
 
         public async Task<IActionResult> Lista()
         {
-            List<Cancion> lista = await musicaDBContext.Canciones.ToListAsync();
+            List<Cancion> lista = await musicaDBContext.Canciones
+                .Include(c => c.AlbumReferencia.ArtistaReferencia)
+                .ToListAsync();
+
             return View(lista);
         }
 
         [HttpGet]
-        public ActionResult Nuevo()
+        public IActionResult Nuevo()
         {
-            return View();
+            var viewModel = new CancionViewModel()
+            {
+                CancionVM = new Cancion(),
+                Albumes = musicaDBContext.Albumes.Select(a => new SelectListItem
+                {
+                    Value = a.IdAlbum.ToString(),
+                    Text = a.Nombre
+                }).ToList()
+            };
+            return View(viewModel);
         }
         [HttpPost]
-        public async Task<IActionResult> Nuevo(Cancion cancion)
+        public async Task<IActionResult> Nuevo(CancionViewModel viewModel)
         {
-            await musicaDBContext.Canciones.AddAsync(cancion);
+            await musicaDBContext.Canciones.AddAsync(viewModel.CancionVM);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));
@@ -41,12 +53,22 @@ namespace MusicaMVC.Controllers
         {
             Cancion cancion = await musicaDBContext.Canciones.FirstAsync(c => c.IdCancion == id);
 
-            return View(cancion);
+            var viewModel = new CancionViewModel()
+            {
+                CancionVM = cancion,
+                Albumes = musicaDBContext.Albumes.Select(a => new SelectListItem
+                {
+                    Value = a.IdAlbum.ToString(),
+                    Text = a.Nombre
+                }).ToList()
+            };
+
+            return View(viewModel);
         }
         [HttpPost]
-        public async Task<IActionResult> Editar(Cancion cancion)
+        public async Task<IActionResult> Editar(CancionViewModel viewModel)
         {
-            musicaDBContext.Canciones.Update(cancion);
+            musicaDBContext.Canciones.Update(viewModel.CancionVM);
             await musicaDBContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Lista));
