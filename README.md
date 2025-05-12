@@ -11,33 +11,40 @@
 
 ## Computación 2021
 
-**Asignatura**: <!-- REEMPLAZA este comentario por el nombre de la asignatura -->
+**Asignatura**: Programacion Sobre Redes
 
-**Nombre TP**: <!-- REEMPLAZA este comentario por el nombre del TP -->
+**Nombre TP**: Proyecto-MVC
 
-**Apellido y nombre Alumno**: <!-- REEMPLAZA este comentario por tu apellido y nombre -->
+**Apellido y nombre Alumno**: Agreda Mauricio
 
-**Curso**: <!-- REEMPLAZA este comentario por tu curso -->
+**Curso**: 6° 7°
 
-# Título del Proyecto
+# MusicaMVC
 
-_Acá va un párrafo que describa lo que es el proyecto._
+Es un Proyecto que sigue el patron de diceño MVC, en el cual se es capaz de editar, eliminar, agregar y seleccionar (CRUD) registros  segun lo que el usuario desee.
 
 ## Comenzando 🚀
 
 Clonar el repositorio github, desde Github Desktop o ejecutar en la terminal o CMD:
-<!-- cambia el link de abajo al de tu repositorio y BORRA ESTE COMENTARIO -->
 ```
-git clone https://github.com/ET12DE1Computacion/simpleTemplateCSharp
+git clone (https://github.com/Mauricioagreda/Proyecto-MVC)
 ```
 
 ### Pre-requisitos 📋
 
-- .NET 5.0.7 (SDK .NET 5.0.301) [Descargar](https://dotnet.microsoft.com/download/dotnet/5.0)
+- .NET 8.0 (SDK .NET 8.0) [Descargar](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre que cosas se debe instalar, configurar y como hacer deploy_
+Agregar Paquetes NuGet:
+microsoft.entityframeworkcore.sqlserver\8.0.4\
+microsoft.entityframeworkcore.tools\8.0.4\
+
+Editar la cadena de conexion en caso de que se haya modificado el Nombre defaul del server:
+MusicaMVC -> appsettings.json -> "CadenaSQL": "Data Source=(local)\\NOMBRE MODIFICADO DE TU SERVER;Initial Catalog=DBCrud; Integrated Security=True; Trusted_Connection=True; TrustServerCertificate=True;"
+
+Crear La Base de Datos:
+Herramientas -> Administrador de paquetes NuGet -> Consola de Administrador de paquetes -> Tipear en la consola: Update-DAtabase
 
 ## Construido con 🛠️
 
@@ -51,10 +58,9 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Max Power** - *Desarrollo* - [Maxpower](https://github.com/maxpower)
-* **Cosme Fulanito** - *Documentación* - [Cosmefulanito](#Cosmefulanito)
+Mauricio Agreda - Desarrollo - [MauricioAgreda]((https://github.com/Mauricioagreda))
+Max Power - Desarrollo - [Maxpower](https://github.com/maxpower)
+Cosme Fulanito - Documentación - [Cosmefulanito](#Cosmefulanito)
 
 ## Licencia 📄
 
