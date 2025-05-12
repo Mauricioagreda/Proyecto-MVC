@@ -36,15 +36,15 @@ git clone (https://github.com/Mauricioagreda/Proyecto-MVC)
 
 ## Despliegue 📦
 
-Agregar Paquetes NuGet:
-microsoft.entityframeworkcore.sqlserver\8.0.4\
-microsoft.entityframeworkcore.tools\8.0.4\
+-Agregar Paquetes NuGet:
+-microsoft.entityframeworkcore.sqlserver\8.0.4\
+-microsoft.entityframeworkcore.tools\8.0.4\
 
-Editar la cadena de conexion en caso de que se haya modificado el Nombre defaul del server:
-MusicaMVC -> appsettings.json -> "CadenaSQL": "Data Source=(local)\\NOMBRE MODIFICADO DE TU SERVER;Initial Catalog=DBCrud; Integrated Security=True; Trusted_Connection=True; TrustServerCertificate=True;"
+-Editar la cadena de conexion en caso de que se haya modificado el Nombre defaul del server:
+-MusicaMVC -> appsettings.json -> "CadenaSQL": "Data Source=(local)\\NOMBRE MODIFICADO DE TU SERVER;Initial Catalog=DBCrud; Integrated Security=True; Trusted_Connection=True; -TrustServerCertificate=True;"
 
-Crear La Base de Datos:
-Herramientas -> Administrador de paquetes NuGet -> Consola de Administrador de paquetes -> Tipear en la consola: Update-DAtabase
+-Crear La Base de Datos:
+-Herramientas -> Administrador de paquetes NuGet -> Consola de Administrador de paquetes -> Tipear en la consola: Update-DAtabase
 
 ## Construido con 🛠️
 
@@ -58,7 +58,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-Mauricio Agreda - Desarrollo - [MauricioAgreda]((https://github.com/Mauricioagreda))
+Mauricio Agreda - Desarrollo - [MauricioAgreda](https://github.com/Mauricioagreda)
 Max Power - Desarrollo - [Maxpower](https://github.com/maxpower)
 Cosme Fulanito - Documentación - [Cosmefulanito](#Cosmefulanito)
 
